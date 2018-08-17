@@ -15,7 +15,7 @@ phases:
       # - command
   pre_build:
     commands:
-      command: "aws --version"
+      - command: "aws --version"
       # - command
   build:
     commands:
