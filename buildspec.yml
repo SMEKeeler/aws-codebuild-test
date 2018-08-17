@@ -15,10 +15,10 @@ phases:
       # - command
   pre_build:
     commands:
-      - command: "aws --version"
+      - "aws --version"
   build:
     commands:
-      - command: "aws --version"
+      - "ls -la"
   #post_build:
     #commands:
       # - command
