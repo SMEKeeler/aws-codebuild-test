@@ -16,6 +16,7 @@ phases:
   pre_build:
     commands:
       - "aws --version"
+      - echo "Test!"
   build:
     commands:
       - "ls -la"
