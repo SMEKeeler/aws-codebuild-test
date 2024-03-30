@@ -15,7 +15,8 @@ phases:
       # - command
   pre_build:
     commands:
-      - "aws --version"
+      - aws --version
+      - python --version
   build:
     commands:
       - "ls -la"
